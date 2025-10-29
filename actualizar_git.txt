@@ -1,0 +1,7 @@
+cd "C:\Users\yoyoi\Music\maestria\DMEyF\proyecto"
+
+git status
+
+git add .
+
+git commit -m "Actualización del proyecto: nuevas modificaciones"

@@ -27,6 +27,11 @@ try:
         MES_TEST = _cfg.get("MES_TEST", "202104")
         GANANCIA_ACIERTO = _cfg.get("GANANCIA_ACIERTO", None)
         COSTO_ESTIMULO = _cfg.get("COSTO_ESTIMULO", None)
+        
+        
+        # Configuración para entrenamiento final
+        FINAL_TRAIN = _cfg.get("FINAL_TRAIN", ["202101", "202102", "202103", "202104"])
+        FINAL_PREDIC = _cfg.get("FINAL_PREDIC", "202106")
 
 except Exception as e:
     logger.error(f"Error al cargar el archivo de configuracion: {e}")
