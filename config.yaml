@@ -1,0 +1,12 @@
+# config.yaml
+STUDY_NAME : "lgb_optimization_competencia02"
+
+competencia01:
+    DATA_PATH: "~/buckets/b1/datasets/competencia_02.csv"
+    SEMILLA: [12,13,14,15,16]
+    MES_TRAIN: "202102"
+    MES_VALIDACION: "202103"
+    MES_TEST: "202104"
+    GANANCIA_ACIERTO: 780000
+    COSTO_ESTIMULO: 20000
+
